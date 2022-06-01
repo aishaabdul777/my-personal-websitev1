@@ -1,0 +1,186 @@
+body {
+    height: fit-content;
+    background-color: wheat;
+}
+
+p {
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(39, 19, 5);
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    background-color: wheat;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: darkgoldenrod;
+    padding: 20px;
+    width: 200px;
+    height: 30px;
+    color: black;
+    text-align: center;
+    border-radius: 15px;
+}
+
+h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: wheat;
+    padding: 20px;
+    width: 500px;
+    height: 20px;
+    color: black;
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+    color: bisque;
+    background-color: black;
+    width: 200px;
+    height: 20px;
+}
+
+#nav {
+    float: left;
+    font: bold 12px;
+    border: 1px solid #121314;
+    border-top: 1px solid#2b2e30;
+    border-radius: 3px;
+    overflow: hidden;
+    width: 100%;
+}
+
+#nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#nav ul li {
+    float: left;
+}
+
+ul {
+    font-size: larger;
+    color: rgb(34, 17, 4);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ol {
+    font-size: larger;
+    color: rgb(39, 19, 5);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#nav ul li a {
+    display: inline-table;
+    padding: 5px;
+    background-color: hsl(49, 90%, 12%);
+    color: azure;
+    font-size: large;
+    width: 40%;
+    text-decoration: none;
+    border-left: 5px solid rgb(238, 173, 109);
+    border-right: 5px solid rgb(252, 250, 249);
+    border-radius: 10px;
+    margin-left: 250px;
+    text-align: center;
+}
+
+#nav ul li a:hover {
+    background-color: rgb(174, 216, 22);
+}
+
+.btn {
+    padding: 15px;
+    background-color: rgb(173, 134, 25);
+    color: black;
+    border-color: rgb(15, 15, 15);
+    border-radius: 10px;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.Name {
+    font-size: 25px;
+    color: black;
+}
+
+.email {
+    font-size: 25px;
+    color: black;
+}
+
+.message {
+    font-size: 20px;
+}
+
+label {
+    font-size: larger;
+}
+
+input {
+    width: 50%;
+    padding: 12px;
+    height: 20px;
+    border: 3px solid rgb(148, 101, 13);
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+input[type=submit] {
+    background-color: coral;
+    color: azure;
+    padding: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 50%;
+    height: 20px;
+    font-size: larger;
+    box-sizing: border-box;
+}
+
+#message {
+    display: none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+#message p {
+    padding: 10px 35px;
+    font-size: 18px;
+}
+
+.valid {
+    color: crimson;
+}
+
+.invalid {
+    color: red;
+}
+
+form {
+    background-color: burlywood;
+    padding: 70px;
+    width: 70%;
+}
+
+select {
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer {
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <nav id="nav">
+        <ul style="list-style-type: none; margin: 0; padding: 0; overflow: hidden;">
+            <li><a href="about me.html">Home</a></li>
+            <li><a href="contact page.html">Contact me</a></li>
+            <li><a href="registration page.html">Registration</a></li>
+            <li><a href="login page.html">Login</a></li>
+        </ul>
+    </nav>
+</head>
+
+<body>
+    <main><br><br><br>
+        <h3>Fill in your details below to Login</h3>
+        <center>
+            <form action="#">
+                <label>Email:</label>
+                <input type="email" name="email" id="email" placeholder="input your email address" required><br><br><br>
+                <label>Password:</label>
+                <input type="password" name="password" id="password" placeholder="enter your password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="must contain at least one number and one uppercase and lowercase characters and at least 8 or more characters"
+                    required><br><br><br>
+                <button class="btn">Sign in</button><br><br>
+            </form>
+        </center>
+    </main>
+    <footer>
+        aishaabdul 2022
+    </footer>
+</body>
+
+</html>

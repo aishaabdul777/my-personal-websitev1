@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <nav id="nav">
+        <ul style="list-style-type: none; margin: 0; padding: 0; overflow: hidden;">
+            <li><a href="about me.html">Home</a></li>
+            <li><a href="contact page.html">Contact me</a></li>
+            <li><a href="registration page.html">Registration</a></li>
+            <li><a href="login page.html">Login</a></li>
+        </ul>
+    </nav>
+</head>
+
+<body><br><br>
+    <h3>Fill the form below to Register</h3>
+    <center>
+        <form action="#">
+            <label>First Name:</label>
+            <input type="text" name="Fname" id="Fname" placeholder="your first name here" minlength="3" maxlength="20" required><br><br><br>
+            <label>Last Name:</label>
+            <input type="text" name="Lname" id="Lname" placeholder="your last name here" minlength="3" maxlength="30" required><br><br><br>
+            <label>Phone Number</label>
+            <input type="tel" name="phone" id="phone" placeholder="123-56-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br><br><br>
+            <label for="gender" style="font-size: 20px; margin-left: 10px;">Choose a gender:</label>
+            <select style="padding: 10px; cursor: pointer; background-color: rgb(223, 142, 85); margin-right: 350px;" name="gender">
+                    <option value="0">choose a gender</option>
+                    <option value="1">Male</option>
+                    <option value="2">Female</option>
+                    <option value="3">Others</option>
+                    <option value="4">None</option>
+                </select>
+            <br><br><br>
+            <label for="country" style="font-size: 20px; margin-left: 10px;">Country</label>
+            <select style="padding: 10px; cursor: pointer; background-color: rgb(223, 142, 85); margin-right: 350px;" name="country">
+                        <option value="0">select a country</option>
+                        <option value="1">Nigeria</option>
+                        <option value="2">Togo</option>
+                        <option value="3">Ghana</option>
+                        <option value="4">Malawi</option>
+                        <option value="5">zimbabwe</option>
+                        <option value="6">Algeria</option>
+                        <option value="7">Coutonou</option>
+                        <option value="8">Senegal</option>
+                        <option value="9">Egypt</option>
+                        <option value="10">Morocco</option>
+                        <option value="11">South Africa</option>
+                        <option value="12">Madagascar</option>
+                        <option value="13">Mozambique</option>
+                    </select><br><br><br>
+            <label for="state" style="font-size: 20px; margin-left: 10px;">State/Province</label>
+            <select style="padding: 10px; cursor: pointer; background-color: rgb(223, 142, 85); margin-right: 350px;" name="state">
+            <option value="0">select a state</option>
+            <option value="1">Abia</option>
+            <option value="2">Adamawa</option>
+                            <option value="3">Kano</option>
+                            <option value="4">Kaduna</option>
+                            <option value="5">Imo</option>
+                            <option value="6">Abuja</option>
+                            <option value="5">kwara</option>
+                            <option value="6">lagos</option>
+                            <option value="7">ogun</option>
+                            <option value="8">bauci</option>
+                            <option value="9">cross river</option>
+                            <option value="10">delta</option>
+                            <option value="1">katsina</option>
+                        </select>
+            <br><br><br>
+            <label>Email:</label>
+            <input type="email" name="email" id="email" placeholder="example@email.com" required><br><br><br>
+            <label for="psw">password:</label>
+            <input type="password" name="password" id="password" placeholder="enter your password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="must contain at least one number and one uppercase and lowercase characters and at least 8 or more characters"
+                required><br><br><br>
+            <label>confirm password</label>
+            <input type="password" name="password" id="password2" placeholder="enter your password again" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="must contain at least one number and one uppercase and lowercase characters and at least 8 or more characters"
+                required>
+
+            <br><br><br>
+            <button class="btn">Register</button><br><br>
+        </form>
+    </center>
+    <footer>
+        aishaabdul 2022
+    </footer>
+</body>
+
+</html>
